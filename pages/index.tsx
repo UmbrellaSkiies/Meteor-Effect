@@ -1,7 +1,7 @@
 import React from "react";
 import { Meteors } from "./components/Meteors";
 
-export const MeteorPreview = () => {
+const MeteorPreview = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-900">
       <div className="relative max-w-sm">
@@ -29,11 +29,11 @@ export const MeteorPreview = () => {
           </h1>
 
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-            I don't know what to write, so I'll just paste something cool here.
+            I don't know what to write so I'll just paste something cool here.
             One more sentence because lorem ipsum is just unacceptable.
           </p>
 
-          <button className="border px-4 py-1 rounded-lg !text-sm border-gray-500 text-gray-300">
+          <button className="border px-4 py-1 rounded-lg text-sm border-gray-500 text-gray-300">
             Explore &rarr;
           </button>
 
