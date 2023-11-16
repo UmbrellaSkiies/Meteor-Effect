@@ -1,5 +1,5 @@
 import React from "react";
-import { Meteors } from "./components/Meteors";
+import { Meteors } from "./Meteors";
 
 export const MeteorPreview = () => {
   return (
